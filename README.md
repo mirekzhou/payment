@@ -22,8 +22,14 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 
 ## 路由跳转方法
-1. Using the <Link> Component    （最主要推荐的方式， 提供client-side + prefetching的方式）
+1. Using the <Link> Component    
+  （最主要推荐的方式， 提供client-side + prefetching的方式）
+
 2. Using the useRouter hook (Client Components)  
+   (除非有特殊需求，否则使用 <Link组件> 代替 useRouter)
+
 3. Using the redirect function (Server Components)
+    
+
 4. Using the native History API
 
